@@ -1,0 +1,441 @@
+body {
+    overflow-x: hidden;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+ul, p {
+    font-size: 20px;
+}
+
+p.small {
+    font-size: 16px;
+}
+
+h1,
+h2
+{
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+hr{
+    margin: 15px auto 25px;
+    padding: 0;
+}
+
+/*---------------------------
+            Header
+----------------------------*/
+.navbar{
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.menu{
+    background: #334482;
+    height: 100px;
+    width: 100%;
+}
+
+#menu .container{
+    padding-top: 1%;
+}
+
+.container .navbar .navbar-brand{
+    font-size: 2em;
+}
+
+.container .navbar a:hover,
+.container .navbar a:active,
+.container .navbar a:focus{
+    color: #2196F3;
+}
+.container .navbar .navbar-collapse .navbar-nav .nav-item a:hover{
+    color: #2196F3;
+}
+
+.menu .container{
+    height: 100%;
+    padding-top: 1.2%;
+}
+
+/*----------Social Icons---------------*/
+
+
+.btn-social {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 29px;
+    margin-left: 0.5em;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+
+.btn-outline {
+    border: solid 3px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #2196F3;
+    background: #fff;
+}
+
+/*---------------------------
+            Introduction
+----------------------------*/
+header{
+    background: url(../pictures/internet_2.jpg) no-repeat top center/cover;
+    padding-top: 8%;
+    padding-bottom: 3%;
+}
+
+.profile-img{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 50%;
+    border: solid 7px white;
+}
+.intro-text h2,h3{
+    color: black;
+}
+
+.name, .major{
+    font-family: Helvetica,sans-serif;
+    font-size: 2.2em;
+}
+
+.intro-text hr{
+    border: 0;
+    max-width: 170px;
+    border-top: solid 3px white;
+}
+
+/*---------------------------
+         About Section
+----------------------------*/
+#about{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#about .col-lg-12 hr{
+    border: 0;
+    max-width: 260px;
+    border-top: solid 4px #29455b;
+}
+#about h3{
+    color: #29455b;
+}
+
+.summary{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+/*---------------------------
+         Skills Section
+----------------------------*/
+#skills{
+    background-color: #a3a7ab57;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#skills .col-lg-12 hr{
+    border: 0;
+    max-width: 260px;
+    border-top: solid 4px #29455b;
+}
+
+/*--------SKILLS BAR-------*/
+.row .skill-topic{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+section:nth-of-type(2) .bar {
+    align-items: flex-end;
+    background-color: #a2a5a5;
+    color: #090808;
+    font-size: 15pt;
+    height: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section .flex-50-gt-sm {
+    display: block;
+}
+
+section:nth-of-type(2) .bar:nth-child(1) .fill {
+    transition: 1.1s 0.2s width ease-in-out;
+}
+
+section:nth-of-type(2) .bar.fill {
+    left: 0;
+    position: absolute;
+    top: 0;
+    background-color: #2b89ea;
+    opacity: 1;
+    height: 30px;
+}
+
+section:nth-of-type(2) .bar .tag {
+    left: 0;
+    position: absolute;
+    top: 0;
+    background-color: #343a40;
+    color: #fff;
+    height: 30px;
+    width: 110px;
+    margin-bottom: 55px;
+}
+
+section:nth-of-type(2) .bar span {
+    padding: 0 15px 0 0;
+    display: initial;
+    z-index: 1;
+}
+
+/*---------------------------
+         Contact Section
+----------------------------*/
+#contact{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#contact .col-lg-12 hr{
+    border: 0;
+    max-width: 260px;
+    border-top: solid 4px #29455b;
+}
+.btn-success{
+    margin-left: 20%;
+}
+/*---------------------------
+         Footer Section
+----------------------------*/
+footer {
+    color: #fff;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #090808;
+}
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #000000;
+}
+
+.form-group .btn-success{
+    background: #007bff;
+    border: #ffffff;
+}
+
+/*---------------------------
+      Scroll Top button
+----------------------------*/
+
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
+}
+/*-------------------------------------
+            PROJECTS
+--------------------------------------*/
+
+.projects{
+    width: 100%;
+    height: 450px;
+    background: url(../pictures/project_1.jpg) no-repeat top center/cover;
+    position: relative;
+}
+
+.projects-tittle{
+    padding-top: 5%;
+}
+
+.projects-tittle h1{
+    color: white;
+}
+
+.projects-list{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.project-column{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.card-header{
+    width: 100%;
+    height: 250px;
+}
+
+.project-image1{
+    background: url(../pictures/Project3.PNG) no-repeat top center/cover;
+}
+
+.project-image2{
+    background: url(../pictures/Project2.PNG) no-repeat top center/cover;
+}
+
+.project-image3{
+    background: url(../pictures/Project1.PNG) no-repeat top center/cover;
+}
+
+.project-column p{
+    margin-top: 30px;
+}
+
+
+/*-------------------------------------
+            SMALL VIEWS
+--------------------------------------*/
+@media(max-width:767px) {
+
+    /*NAVIGATION BAR*/
+    .container .navbar .navbar-brand{
+        font-size: 1.25em;
+    }
+    header .container .row{
+        margin-top: 15px;
+    }
+
+    /*SOCIAL ICONS*/
+    .btn-social {
+        width: 26px;
+        height: 26px;
+        border: 2px solid #fff;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 14px;
+        padding-top: 2%;
+        line-height: 18px;
+        transition: height 0.5s ease-out;
+    }
+
+    /*DEVELOPER INFORMATION*/
+    .menu{
+        height: 65px;
+        width: 100%;
+        transition: all 0.5s ease-out;
+    }
+
+    .profile-img{
+        margin-top: 10%;
+        margin-bottom: 2%;
+        border-radius: 50%;
+    }
+
+    .name, .major{
+        font-size: 1.8em;
+    }
+
+    /*COLLAPSABLE MENU*/
+    .navbar-collapse{
+        background: #232526;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin-top: 2.75%;
+        border-top: solid 0.00001rem #a2a5a5;
+        padding-left: 2%;
+    }
+
+    /*SKILLS SECTION*/
+    .row .skill-topic{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    section:nth-of-type(2) .bar {
+        font-size: 12pt;
+    }
+
+    section:nth-of-type(2) .bar span {
+        padding: 0 8px 0 0;
+    }
+
+    /*PROJECTS*/
+    .projects-tittle{
+        margin-top: 20%;
+    }
+
+    .project-column{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .card-body h3 a{
+        font-size: 20px;
+    }
+    .card-body{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .project-column p{
+        margin-top: 0px;
+    }
+}
+
+@media(max-width:300px) {
+    /*NAVIGATION BAR*/
+    .container .navbar .navbar-brand {
+        font-size: 0.85em;
+    }
+}
