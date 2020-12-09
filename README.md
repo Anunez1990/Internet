@@ -12,4 +12,4 @@ https://an74njit.github.io/Internet/
 
 * PROJECT  MOCKUP
 https://drive.google.com/file/d/18UwtZsno-6JRverYzqtIRi8osR6weMvR/view?usp=sharing
-![pdf](pictures/The%20internet.pdf)
+![Pdf](pictures/Internet.pdf)
