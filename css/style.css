@@ -108,28 +108,16 @@ header{
     background: url(../pictures/internet_2.jpg) no-repeat top center/cover;
     padding-top: 8%;
     padding-bottom: 3%;
+    height: 500px;
 }
 
-.profile-img{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border-radius: 50%;
-    border: solid 7px white;
-}
-.intro-text h2,h3{
-    color: black;
+
+.intro-text h1{
+    color: white;
+    margin-top: 10%;
+    font-size: 50px;
 }
 
-.name, .major{
-    font-family: Helvetica,sans-serif;
-    font-size: 2.2em;
-}
-
-.intro-text hr{
-    border: 0;
-    max-width: 170px;
-    border-top: solid 3px white;
-}
 
 /*---------------------------
          About Section
@@ -154,24 +142,50 @@ header{
 }
 
 /*---------------------------
-         Skills Section
+         Author section
 ----------------------------*/
-#skills{
+#author{
     background-color: #a3a7ab57;
     padding-top: 4%;
     padding-bottom: 4%;
 }
 
-#skills .col-lg-12 hr{
+#author .author-container{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.author-container{
+    padding-top: 2rem;
+    background-color: white;
+    border-radius: 2%;
+    padding-bottom: 0rem;
+}
+
+.btn-social-author{
+    color: #2196F3;
+    border: solid 2px #2196F3;
+
+}
+
+.author-picture{
+    border-radius: 50%;
+}
+
+.btn-social-author:hover,
+.btn-social-author:focus,
+.btn-social-author:active,
+.btn-social-author.active {
+    border: solid 2px #2196F3;
+    color: #2196F3;
+    background: gainsboro;
+}
+
+
+#author .col-lg-12 hr{
     border: 0;
     max-width: 260px;
     border-top: solid 4px #29455b;
-}
-
-/*--------SKILLS BAR-------*/
-.row .skill-topic{
-    padding-left: 20%;
-    padding-right: 20%;
 }
 
 section:nth-of-type(2) .bar {
@@ -253,7 +267,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #090808;
+    background-color: #334482;
 }
 
 footer .footer-col {
@@ -262,7 +276,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #000000;
+    background-color: #334482;
 }
 
 .form-group .btn-success{
@@ -295,54 +309,163 @@ footer .footer-below {
     outline: 0;
 }
 /*-------------------------------------
-            PROJECTS
+            HISTORY SECTION
 --------------------------------------*/
-
-.projects{
-    width: 100%;
-    height: 450px;
-    background: url(../pictures/project_1.jpg) no-repeat top center/cover;
-    position: relative;
-}
-
-.projects-tittle{
-    padding-top: 5%;
-}
-
-.projects-tittle h1{
-    color: white;
-}
-
-.projects-list{
+#history{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+.summary-history{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.history-picture1{
+    width: 450px;
+    height: 300px;
+    margin-top: 9%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15%;
+}
 
-.project-column{
+.history-picture2{
+    width: 180px;
+    height: 180px;
+    margin-left: 35%;
+}
+
+/*-------------------------------------
+        IMPORTANT PEOPLE SECTION
+--------------------------------------*/
+#people{
+    background-color: #334482;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+#people h2{
+    color: white;
+}
+.summary-people{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+}
+.people-picture1{
+    width: 350px;
+    height: 250px;
+    margin-top: 9%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15%;
+}
+
+.people-picture2{
+    width: 350px;
+    height: 250px;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+.people-picture3{
+    width: 350px;
+    height: 250px;
+    margin-left: 0%;
+}
+
+/*-------------------------------------
+        IMPORTANT EVENTS SECTION
+--------------------------------------*/
+#events {
+    margin-top: 3%;
+    margin-bottom: 7%;
+}
+.summary-events{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.events-picture1{
+    width: 400px;
+    height: 200px;
+    margin-top: 9%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15%;
+}
+
+.events-picture2{
+    width: 280px;
+    height: 120px;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+.events-picture3{
+    width: 150px;
+    height: 100px;
+    margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
 }
-.card-header{
-    width: 100%;
-    height: 250px;
+.events-picture4{
+    width: 150px;
+    height: 100px;
+    margin-left: 5%;
 }
 
-.project-image1{
-    background: url(../pictures/Project3.PNG) no-repeat top center/cover;
+/*-------------------------------------
+            DNS SECTION
+--------------------------------------*/
+#dns{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    background-color: #334482;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#dns h2{
+    color: white;
+}
+.summary-dns{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
 }
 
-.project-image2{
-    background: url(../pictures/Project2.PNG) no-repeat top center/cover;
+.dns-picture1{
+    width: 400px;
+    height: 300px;
+    margin-top: 19%;
+    margin-bottom: 15%;
 }
 
-.project-image3{
-    background: url(../pictures/Project1.PNG) no-repeat top center/cover;
+
+/*-------------------------------------
+           PROTOCOLS SECTION
+--------------------------------------*/
+#protocols{
+    padding-bottom: 4%;
 }
 
-.project-column p{
-    margin-top: 30px;
+.summary-protocols{
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
+.protocols-picture1{
+    width: 400px;
+    height: 300px;
+    margin-top: 49%;
+    margin-bottom: 15%;
+}
 
 /*-------------------------------------
             SMALL VIEWS
@@ -365,72 +488,202 @@ footer .footer-below {
         border-radius: 100%;
         text-align: center;
         font-size: 14px;
-        padding-top: 2%;
         line-height: 18px;
         transition: height 0.5s ease-out;
     }
 
-    /*DEVELOPER INFORMATION*/
-    .menu{
-        height: 65px;
-        width: 100%;
-        transition: all 0.5s ease-out;
+
+    /*---------------------------
+             Author section
+    ----------------------------*/
+    #author{
+        background-color: #a3a7ab57;
+        padding-top: 4%;
+        padding-bottom: 4%;
     }
 
-    .profile-img{
-        margin-top: 10%;
+    #author .author-container{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .author-container{
+        padding-top: 2rem;
+        background-color: white;
+        border-radius: 2%;
+        padding-bottom: 0rem;
+    }
+    .btn-social-author{
+        color: #2196F3;
+        border: solid 2px #2196F3;
+    }
+
+    /*-------------------------------------
+            HISTORY SECTION
+    --------------------------------------*/
+    #history{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .summary-history{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .history-picture1{
+        width: 450px;
+        height: 300px;
+        margin-top: 5%;
+        margin-left: 6%;
         margin-bottom: 2%;
-        border-radius: 50%;
     }
 
-    .name, .major{
-        font-size: 1.8em;
+    .history-picture2{
+        width: 180px;
+        height: 180px;
     }
 
-    /*COLLAPSABLE MENU*/
-    .navbar-collapse{
-        background: #232526;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        margin-top: 2.75%;
-        border-top: solid 0.00001rem #a2a5a5;
-        padding-left: 2%;
+    /*-------------------------------------
+            IMPORTANT PEOPLE SECTION
+    --------------------------------------*/
+    #people{
+        margin-top: 5%;
+        margin-bottom: 3%;
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+    .summary-people{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
-    /*SKILLS SECTION*/
-    .row .skill-topic{
-        padding-left: 10%;
-        padding-right: 10%;
+    .people-picture1{
+        width: 200px;
+        height: 180px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 7%;
+        margin-top: 1%;
     }
 
-    section:nth-of-type(2) .bar {
-        font-size: 12pt;
+    .people-picture2{
+        width: 200px;
+        height: 160px;
+        margin-top: 4%;
+
     }
 
-    section:nth-of-type(2) .bar span {
-        padding: 0 8px 0 0;
+    .people-picture3{
+        width: 300px;
+        height: 200px;
+        margin-left: 17%;
     }
 
-    /*PROJECTS*/
-    .projects-tittle{
-        margin-top: 20%;
+    /*-------------------------------------
+            IMPORTANT EVENTS SECTION
+    --------------------------------------*/
+    #events {
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+    .summary-events{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
-    .project-column{
-        margin-left: 0;
-        margin-right: 0;
+    .events-picture1{
+        width: 150px;
+        height: 100px;
+        margin-bottom: 5%;
+        margin-left: 12%;
+        margin-top: 2%;
     }
 
-    .card-body h3 a{
-        font-size: 20px;
+    .events-picture2{
+        width: 150px;
+        height: 70px;
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-bottom: 10%;
     }
-    .card-body{
-        padding-right: 5px;
-        padding-left: 5px;
+    .events-picsture3{
+        width: 150px;
+        height: 100px;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
-    .project-column p{
-        margin-top: 0px;
+    .events-picture4{
+        width: 150px;
+        height: 100px;
+        margin-left: 5%;
     }
+
+    /*-------------------------------------
+                DNS SECTION
+    --------------------------------------*/
+    #dns{
+        margin-top: 3%;
+        margin-bottom: 4%;
+        background-color: #334482;
+        padding-top: 6%;
+        padding-bottom: 4%;
+    }
+    #dns h2{
+        color: white;
+    }
+    .summary-dns{
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        color: white;
+    }
+
+    .dns-picture1{
+        width: 400px;
+        height: 300px;
+        margin-top: 2%;
+        margin-bottom: 0%;
+        margin-left: 11%;
+    }
+
+
+    /*-------------------------------------
+               PROTOCOLS SECTION
+    --------------------------------------*/
+    #protocols{
+        padding-top: 2%;
+    }
+
+    .summary-protocols{
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .protocols-picture1{
+        width: 400px;
+        height: 300px;
+        margin-top: 2%;
+        margin-left: 7%;
+        margin-bottom: 2%;
+    }
+
+
+
+    /*-------------------------------------
+                 DROPABLE MENU
+      --------------------------------------*/
+
+        .navbar-nav{
+            background-color: #334482;
+        }
+
 }
 
 @media(max-width:300px) {
