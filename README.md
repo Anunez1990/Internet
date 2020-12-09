@@ -11,4 +11,4 @@ Links:
 https://an74njit.github.io/Internet/
 
 * PROJECT  MOCKUP
-![](pictures/The%20internet.pdf)
+![pdf](pictures/The%20internet.pdf)
