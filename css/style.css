@@ -111,29 +111,13 @@ header{
     height: 500px;
 }
 
-.profile-img{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border-radius: 50%;
-    border: solid 7px white;
-}
+
 .intro-text h1{
     color: white;
     margin-top: 10%;
     font-size: 50px;
-
 }
 
-.name, .major{
-    font-family: Helvetica,sans-serif;
-    font-size: 2.2em;
-}
-
-.intro-text hr{
-    border: 0;
-    max-width: 170px;
-    border-top: solid 3px white;
-}
 
 /*---------------------------
          About Section
@@ -504,76 +488,39 @@ footer .footer-below {
         border-radius: 100%;
         text-align: center;
         font-size: 14px;
-        padding-top: 2%;
         line-height: 18px;
         transition: height 0.5s ease-out;
     }
 
-    /*DEVELOPER INFORMATION*/
-    .menu{
-        height: 65px;
-        width: 100%;
-        transition: all 0.5s ease-out;
+
+    /*---------------------------
+             Author section
+    ----------------------------*/
+    #author{
+        background-color: #a3a7ab57;
+        padding-top: 4%;
+        padding-bottom: 4%;
     }
 
-    .profile-img{
-        margin-top: 10%;
-        margin-bottom: 2%;
-        border-radius: 50%;
+    #author .author-container{
+        margin-left: 4%;
+        margin-right: 4%;
     }
 
-    .name, .major{
-        font-size: 1.8em;
+    .author-container{
+        padding-top: 2rem;
+        background-color: white;
+        border-radius: 2%;
+        padding-bottom: 0rem;
     }
-
-    /*COLLAPSABLE MENU*/
-    .navbar-collapse{
-        background: #232526;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        margin-top: 2.75%;
-        border-top: solid 0.00001rem #a2a5a5;
-        padding-left: 2%;
-    }
-
-    /*SKILLS SECTION*/
-    .row .skill-topic{
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-
-    section:nth-of-type(2) .bar {
-        font-size: 12pt;
-    }
-
-    section:nth-of-type(2) .bar span {
-        padding: 0 8px 0 0;
-    }
-
-    /*PROJECTS*/
-    .projects-tittle{
-        margin-top: 20%;
-    }
-
-    .project-column{
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .card-body h3 a{
-        font-size: 20px;
-    }
-    .card-body{
-        padding-right: 5px;
-        padding-left: 5px;
-    }
-    .project-column p{
-        margin-top: 0px;
+    .btn-social-author{
+        color: #2196F3;
+        border: solid 2px #2196F3;
     }
 
     /*-------------------------------------
             HISTORY SECTION
---------------------------------------*/
+    --------------------------------------*/
     #history{
         margin-top: 5%;
         margin-bottom: 5%;
@@ -726,31 +673,16 @@ footer .footer-below {
         margin-left: 7%;
         margin-bottom: 2%;
     }
-    /*-------------------------------------
-                  FOOTER ICONS
-       --------------------------------------*/
 
-    .btn-outline {
-        border: solid 3px #fff;
 
-        color: #fff;
-        background: 0 0;
-        transition: all .3s ease-in-out;
-    }
 
-    .btn-social {
-        display: inline-block;
-        border: 2px solid #fff;
-        border-radius: 100%;
-        text-align: center;
-        font-size: 12px;
-        line-height: 15px;
-        margin-left: 0.5em;
-    }
     /*-------------------------------------
                  DROPABLE MENU
       --------------------------------------*/
 
+        .navbar-nav{
+            background-color: #334482;
+        }
 
 }
 
