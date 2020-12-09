@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7a051b4-3b49-4bad-abd3-acf93acfec41" name="Default Changelist" comment="Feature: Adding content to the events section">
+    <list default="true" id="c7a051b4-3b49-4bad-abd3-acf93acfec41" name="Default Changelist" comment="Feature: Adding content to the events dns section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages.html" afterDir="false" />
@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607292718960</updated>
-      <workItem from="1607292720171" duration="15602000" />
+      <workItem from="1607292720171" duration="16745000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Creating main structure">
       <created>1607462271929</created>
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607473842724</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Feature: Adding content to the events dns section">
+      <created>1607532510219</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607532510219</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +90,7 @@
     <MESSAGE value="Feature: Creating main structure" />
     <MESSAGE value="Feature: Adding gitignore file" />
     <MESSAGE value="Feature: Adding content to the events section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: Adding content to the events section" />
+    <MESSAGE value="Feature: Adding content to the events dns section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: Adding content to the events dns section" />
   </component>
 </project>
