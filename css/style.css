@@ -570,6 +570,188 @@ footer .footer-below {
     .project-column p{
         margin-top: 0px;
     }
+
+    /*-------------------------------------
+            HISTORY SECTION
+--------------------------------------*/
+    #history{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .summary-history{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .history-picture1{
+        width: 450px;
+        height: 300px;
+        margin-top: 5%;
+        margin-left: 6%;
+        margin-bottom: 2%;
+    }
+
+    .history-picture2{
+        width: 180px;
+        height: 180px;
+    }
+
+    /*-------------------------------------
+            IMPORTANT PEOPLE SECTION
+    --------------------------------------*/
+    #people{
+        margin-top: 5%;
+        margin-bottom: 3%;
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+    .summary-people{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .people-picture1{
+        width: 200px;
+        height: 180px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 7%;
+        margin-top: 1%;
+    }
+
+    .people-picture2{
+        width: 200px;
+        height: 160px;
+        margin-top: 4%;
+
+    }
+
+    .people-picture3{
+        width: 300px;
+        height: 200px;
+        margin-left: 17%;
+    }
+
+    /*-------------------------------------
+            IMPORTANT EVENTS SECTION
+    --------------------------------------*/
+    #events {
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+    .summary-events{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .events-picture1{
+        width: 150px;
+        height: 100px;
+        margin-bottom: 5%;
+        margin-left: 12%;
+        margin-top: 2%;
+    }
+
+    .events-picture2{
+        width: 150px;
+        height: 70px;
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-bottom: 10%;
+    }
+    .events-picsture3{
+        width: 150px;
+        height: 100px;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .events-picture4{
+        width: 150px;
+        height: 100px;
+        margin-left: 5%;
+    }
+
+    /*-------------------------------------
+                DNS SECTION
+    --------------------------------------*/
+    #dns{
+        margin-top: 3%;
+        margin-bottom: 4%;
+        background-color: #334482;
+        padding-top: 6%;
+        padding-bottom: 4%;
+    }
+    #dns h2{
+        color: white;
+    }
+    .summary-dns{
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        color: white;
+    }
+
+    .dns-picture1{
+        width: 400px;
+        height: 300px;
+        margin-top: 2%;
+        margin-bottom: 0%;
+        margin-left: 11%;
+    }
+
+
+    /*-------------------------------------
+               PROTOCOLS SECTION
+    --------------------------------------*/
+    #protocols{
+        padding-top: 2%;
+    }
+
+    .summary-protocols{
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .protocols-picture1{
+        width: 400px;
+        height: 300px;
+        margin-top: 2%;
+        margin-left: 7%;
+        margin-bottom: 2%;
+    }
+    /*-------------------------------------
+                  FOOTER ICONS
+       --------------------------------------*/
+
+    .btn-outline {
+        border: solid 3px #fff;
+
+        color: #fff;
+        background: 0 0;
+        transition: all .3s ease-in-out;
+    }
+
+    .btn-social {
+        display: inline-block;
+        border: 2px solid #fff;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 12px;
+        line-height: 15px;
+        margin-left: 0.5em;
+    }
+    /*-------------------------------------
+                 DROPABLE MENU
+      --------------------------------------*/
+
+
 }
 
 @media(max-width:300px) {
